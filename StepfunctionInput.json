@@ -1,0 +1,81 @@
+/*Test 1*/
+{
+  "Params" : {
+  	"Bucket": "cs446rekognition-us-east-1",
+    "Key": "Recognition/InputImages/ManMouthWideOpen.jpg"
+},
+"OverallResult" : {
+        "Pass" : "True",
+        "Reason" : "",
+        "Details" : []
+	}
+}
+
+
+/*Test 2*/
+
+{
+  "Params" : {
+  	"Bucket": "cs446rekognition-us-east-1",
+    "Key": "Recognition/InputImages/Man1_Young.jpg"
+},
+"OverallResult" : {
+        "Pass" : "True",
+        "Reason" : "",
+        "Details" : []
+	}
+}
+/*Test 3*/
+{
+  "Params" : {
+  	"Bucket": "cs446rekognition-us-east-1",
+    "Key": "Recognition/InputImages/FLOWER_NoFace.jpg"
+},
+"OverallResult" : {
+        "Pass" : "True",
+        "Reason" : "",
+        "Details" : []
+	}
+}
+
+
+/*Test 4*/
+
+{
+  "Params" : {
+  	"Bucket": "cs446rekognition-us-east-1",
+    "Key": "Recognition/InputImages/Man_Success.JPG"
+},
+"OverallResult" : {
+        "Pass" : "True",
+        "Reason" : "",
+        "Details" : []
+	}
+}
+/*Test 5*/
+{
+  "Params" : {
+  	"Bucket": "cs446rekognition-us-east-1",
+    "Key": "Recognition/InputImages/Man_Sunglass.jpeg"
+},
+"OverallResult" : {
+        "Pass" : "True",
+        "Reason" : "",
+        "Details" : []
+	}
+}
+
+
+/*Test 6*/
+
+{
+  "Params" : {
+  	"Bucket": "cs446rekognition-us-east-1",
+    "Key": "Recognition/InputImages/Jeff_Bz.jpg"
+},
+"OverallResult" : {
+        "Pass" : "True",
+        "Reason" : "",
+        "Details" : []
+	}
+}
