@@ -2,7 +2,6 @@
 
 *Deployment:-
 
-Instuctions for deployment is as follow :-
 First download the AWS CLI from aws official website.
 1. Download this project directory on your local machine.
 2. Once you downloaded, open command promt and navigate to the project directory & then navigate to /code subdirectory and install the following:
