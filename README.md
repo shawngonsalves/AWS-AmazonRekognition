@@ -1,6 +1,6 @@
 # CS446_AmazonRekognition
 
-Deployment and execution :-
+*Deployment :-
 
 First download the AWS CLI from aws official website.
 1. Download this project directory on your local machine.
@@ -16,7 +16,7 @@ First download the AWS CLI from aws official website.
    aws cloudformation deploy --template-file Rekogoutput.yaml --stack-name cs446Stack --capabilities CAPABILITY_IAM --region us-east-1
 7. After performing all the above steps, navigate to CloudFormation in aws console there you'll see stack is created after deployment and stack and simultaniously when you navigate to S3 bucket the new S3 bucket with the name 'cs446reokognition-us-east-1' will be created as part of stack. Similarly, inside Lambda service all code(.py) files for our project will be deployed as lambda is serverless which runs your code to events and automatically manages underlying computing resouces for you. Similarly, inside AWS StepFunctions service, the state machine is created as a part of stack & in the AWS ElasticSearch the domain end point is created where the results of our project will be logged.
 
-Execution :-
+*Execution :-
 
 The StepfunctionInput.json file contains sample invocations that you can use to trigger the worklow. The Step Functions state machine expects input to be passed in a particular format. You can change the values, but the structure is expected by the lambda functions that are triggered by the state function.
 
@@ -28,11 +28,11 @@ Click on 'New Execution'.
 In the input window, you can paste any of the sample inputs from StepfunctionInput.json, or point to your own image file.
 Click on 'Start Execution'.
 
-Output:-
+*Output:-
 
 In the AWS ElasticSearch the domain end point is created where the results of our project will be logged.
 
-Steps of our project execution :-
+*Steps of our project execution :-
 
 Once the image lands on the S3 bucket, the step functions flow can be triggered using a S3 event + Lambda (The S3 event triggering code is not included in this repository). Step functions then executes a series of checks with Amazon Rekognition and builds a json template of its findings, as it progresses through the workflow. The process is successful if all the steps succeed and unsuccessful if any of them fails. The results are logged into Amazon Elasticsearch service and you use Kibana to visualize the results.
 
