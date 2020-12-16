@@ -1,6 +1,7 @@
 # CS446_AmazonRekognition
 
 *Deployment :-
+Instructions:-
 
 First download the AWS CLI from aws official website.
 1. Download this project directory on your local machine.
