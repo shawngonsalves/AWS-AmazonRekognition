@@ -32,7 +32,7 @@ Click on 'Start Execution'.
 
 In the AWS ElasticSearch the domain end point is created where the results of our project will be logged.
 
-![](images/posCovid-19.png)
+![](images/allParametersOutput.png)
 
 ![](images/posCovid-19.png)
 
