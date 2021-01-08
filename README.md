@@ -41,7 +41,6 @@ This image passed all the constraints, and was successfully stored within the cl
 The above image gave us an error: “A Duplicate Image was detected”. As shown, even though the image uploaded was the subject without glasses, Rekognition was still able to compare with the previously successfully passed image and identify them as the same person shown in a previous image. Thus, returning as a duplicate image failure.
 
 ![](images/sunglassesOutput.png)
-
 The above image gave us two error messages:
 1. Face detected with sunglasses
 2. Face not looking in the right direction.
