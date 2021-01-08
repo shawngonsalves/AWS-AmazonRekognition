@@ -34,7 +34,7 @@ In the AWS ElasticSearch the domain end point is created where the results of ou
 
 ![](images/allParametersOutput.png)
 
-![](images/posCovid-19.png)
+![](images/DuplicateOutput.png)
 
 
 
