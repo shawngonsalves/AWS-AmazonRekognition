@@ -34,9 +34,17 @@ In the AWS ElasticSearch the domain end point is created where the results of ou
 
 ![](images/allParametersOutput.png)
 
+This image passed all the constraints, and was successfully stored within the cluster through AWS Elasticsearch. The image will be pulled and referenced again when attempting to filter future images for duplicates.
+
 ![](images/DuplicateOutput.png)
 
+The above image gave us an error: “A Duplicate Image was detected”. As shown, even though the image uploaded was the subject without glasses, Rekognition was still able to compare with the previously successfully passed image and identify them as the same person shown in a previous image. Thus, returning as a duplicate image failure.
+
 ![](images/sunglassesOutput.png)
+
+The above image gave us two error messages:
+1. Face detected with sunglasses
+2. Face not looking in the right direction.
 
 
 # Steps of our project execution :-
