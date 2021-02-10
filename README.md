@@ -1,4 +1,4 @@
-# CS446_AmazonRekognition
+# AWS_AmazonRekognition
 
 # Deployment:-
 
